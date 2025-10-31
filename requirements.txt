@@ -1,0 +1,15 @@
+# requirements.txt
+# Proto-AGI v0.1 Dependencies
+# Install with: pip install -r requirements.txt
+
+torch>=2.0.0
+torchvision
+transformers
+optuna
+hdbscan
+openai-whisper
+deepseek-inference>=0.1.0
+seal-python  # For FHE (optional)
+pyyaml
+numpy
+scipy
