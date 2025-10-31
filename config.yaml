@@ -1,0 +1,44 @@
+# config.yaml
+# Proto-AGI v0.1 Configuration — Justin Thurmond
+# Zenodo: https://doi.org/10.5281/zenodo.17429702
+
+fhe_params:
+  poly_degree: 4096
+  modulus_bits: 128
+  use_seal: false  # Set true for FHE mode
+
+inference_params:
+  use_deepseek: true
+  qar_enabled: true
+
+llm:
+  model: "meta-llama/Llama-3-8b"
+
+vision:
+  model: "resnet50"
+
+audio:
+  model: "whisper-base"
+
+tegw:
+  beta0: 0.1
+  gamma: 0.01
+  epsilon: 0.01
+  visual_bias: true
+
+clustering:
+  num_clusters: 10
+
+template_domain: "materials_science"  # or "coding", "physics", "general"
+
+loop:
+  max_iters: 100000
+  entropy_theta: 0.001
+  validation_interval: 10000
+
+tuning:
+  use_optuna: true
+  trials: 50
+
+encryption:
+  use_seal: false
