@@ -1,6 +1,6 @@
 # input_refiner.py
 # Proto-AGI v0.1 — Justin Thurmond, October 2025
-# Zenodo: https://doi.org/10.5281/zenodo.XXXXXXX
+# Zenodo: https://doi.org/10.5281/zenodo.17429702
 # License: CC-BY-SA 4.0
 
 import torch
