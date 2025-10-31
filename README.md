@@ -3,7 +3,7 @@
 **Author**: Justin Thurmond (@NeurostaticMind on X)
 
 This is the official implementation of the Proto-AGI system from my Zenodo paper:  
-[DOI: 10.5281/zenodo.YOUR-DOI-HERE](https://doi.org/10.5281/zenodo.YOUR-DOI-HERE)  
+[DOI: 10.5281/zenodo.10.5281/zenodo.17429702](https://doi.org/10.5281/zenodo.10.5281/zenodo.17429702)  
 (Replace with your actual DOI—e.g., from the paper upload.)
 
 ## What is Proto-AGI?
